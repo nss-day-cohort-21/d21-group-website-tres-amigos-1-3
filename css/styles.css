@@ -1,4 +1,7 @@
-
+#flex-wrapper {
+	display: flex;
+	display:-webkit-flex;
+}
 
 
 
