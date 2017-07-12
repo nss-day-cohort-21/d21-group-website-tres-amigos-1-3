@@ -1,11 +1,25 @@
 
 
+/**** Team Member Card Styles ****/
 
-
-.teamMemberCard {
+.teamMemberContainer {
+	display: -webkit-flex;
 	display: flex;
-	flex-direction: row;
-	width: 30%;
+	-webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
 	border: 10px solid black;
 	background-color: tomato;
+}
+
+.teamMemberCard {
+	width: 40%;
+	border: 10px solid white;
+	background-color: blue;
+}
+
+.teamMemberPhoto {
+	width: 30px;
+	max-height: 30px;
 }
