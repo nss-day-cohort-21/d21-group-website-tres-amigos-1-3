@@ -95,12 +95,22 @@ header > ul > li > a:hover {
 	height: 400px;
 }
 
+.padding-left {
+	padding-left: 20px;
+}
+
+
 /* Main and Aside Styling */
 
 #flex-wrapper {
 	display: flex;
+	display:-webkit-flex;	
+}
+
+#product-flex {
+	display: flex;
 	display:-webkit-flex;
-	/* flex-wrap: wrap; */
+	flex-wrap: wrap;
 }
 
 main {
