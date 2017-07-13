@@ -162,3 +162,20 @@ footer > p {
 	display: block;
 	font-family: "PT Sans", sans-serif;
 }
+
+/**** Company Culture Styles ****/
+
+#culture-container {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+#culture-container p {
+	font-size: 1.3em;
+	font-weight: 500;
+}
+
+main#culture-container {
+	margin: 50px 125px;
+}
