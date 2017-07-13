@@ -11,7 +11,7 @@ products.push({name: "The Snow Bunny", description: "A hat for those cold winter
 
 
 
-let cards = document.getElementById("flex-wrapper");
+let cards = document.getElementById("product-flex");
 
 for (let i = 0; i < products.length; i++) {
 	cards.innerHTML += `<div class="card-wrapper">
