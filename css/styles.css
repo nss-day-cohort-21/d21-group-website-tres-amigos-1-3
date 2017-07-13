@@ -100,7 +100,7 @@ header > ul > li > a:hover {
 #flex-wrapper {
 	display: flex;
 	display:-webkit-flex;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 }
 
 main {
@@ -109,11 +109,19 @@ main {
 	-webkit-flex-basis: 70%;
 }
 
+
+
+
 aside {
 	padding: 20px;
 	flex-basis: 30%;
 	-webkit-flex-basis: 30%;
+	
 }
+
+
+
+
 
 /* Footer Styling */
 
@@ -161,21 +169,4 @@ footer > p {
 .product-info li {
 	display: block;
 	font-family: "PT Sans", sans-serif;
-}
-
-/**** Company Culture Styles ****/
-
-#culture-container {
-	display: flex;
-	flex-wrap: wrap;
-	text-align: center;
-}
-
-#culture-container p {
-	font-size: 1.3em;
-	font-weight: 500;
-}
-
-main#culture-container {
-	margin: 50px 125px;
 }
