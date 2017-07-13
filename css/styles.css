@@ -1,6 +1,126 @@
+/* Color Guide
+
+light blue: #66ccff;
+dark blue: #0099cc;
+royal blue: #0033cc;
+
+
+/* Typography */
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Quicksand');
+
+h1, h2 {
+	font-family: "Quicksand", serif;
+}
+
+
+p, a {
+	font-family:"PT Sans", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #0099cc;
+}
+
+a:hover {
+	color: #0033cc;
+	font-weight: bold;
+}
+
+/* Main Styles */
+
+body {
+	background-image: url("../images/asanoha-400px.png");
+}
+
+.container {
+	margin: 0 auto;
+	width: 80%;
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+}
+
+header { 
+	margin-top: -22px;
+	width: 100%;
+	display: flex;
+	display:-webkit-flex;
+}
+
+#logo {
+	font-family: "Quicksand", serif;
+	padding: 20px 0px 10px 20px;
+}
+
+/* Navigation Links Styling */
+
+header > ul {
+	padding: 22px 0px 0px 0px;
+	margin-left: 15%;
+}
+
+header > ul > li {
+	display: inline-block;
+	background: #0099cc;
+	margin: 5px 2px 0px 2px;
+	padding: 5px;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+}
+
+header > ul > li:hover {
+	background: #66ccff;
+}
+
+header > ul > li > a {
+	font-size: 1.2em;
+	text-decoration: none;
+	color: #fff;
+	font-family: "PT Sans", sans-serif;
+}
+
+header > ul > li > a:hover {
+	color: #0033cc;
+}
+
+/* Hero Rave Image */
+
+.hero {
+	width: 100%;
+	overflow: hidden;
+	height: 400px;
+}
+
+/* Main and Aside Styling */
+
 #flex-wrapper {
 	display: flex;
 	display:-webkit-flex;
+}
+
+main {
+	padding: 20px;
+}
+
+aside {
+	padding: 20px;
+}
+
+/* Footer Styling */
+
+footer {
+	background: #66ccff;
+	text-align: center;
+	height: 50px;
+}
+
+footer > p {
+	color: #003366;
+	padding-top: 15px;
 }
 
 /**** Team Member Card Styles ****/
